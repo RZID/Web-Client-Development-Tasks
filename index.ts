@@ -4,6 +4,7 @@ import * as readline from "readline"; // NOTE: I'll using readline to make the p
 // Features
 import circle from "./features/circle";
 import rectangle from "./features/rectangle";
+import triangle from "./features/triangle";
 
 // Initialize readline
 const rl = readline.createInterface({
@@ -52,9 +53,9 @@ const start = (): void => {
         circle(rl);
         break;
 
+      // TODO: Find angles of triangle if two angles are given
       case "3":
-        // TODO: Find angles of triangle if two angles are given
-        notImplemented();
+        triangle(rl);
         break;
 
       case "4":
