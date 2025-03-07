@@ -28,13 +28,9 @@ const showMenu = (): void => {
 };
 
 const quitProgram = (): void => {
-    console.log("Exiting...");
-    rl.close();
-  },
-  notImplemented = (): void => {
-    console.log("Oops, this feature is not implemented yet.");
-    quitProgram();
-  };
+  console.log("Exiting...");
+  rl.close();
+};
 
 // NOTE: Main program
 const start = (): void => {
@@ -45,35 +41,29 @@ const start = (): void => {
         quitProgram();
         break;
 
-      // NOTE: Find area of a rectangle
-      case "1":
+      case "1": // Find area of a rectangle
         rectangle(rl);
         break;
 
-      // NOTE: Find diameter, circumference and area of a circle
-      case "2":
+      case "2": // Find diameter, circumference and area of a circle
         circle(rl);
         break;
 
-      // NOTE: Find angles of triangle if two angles are given
-      case "3":
+      case "3": // Find angles of triangle if two angles are given
         triangle(rl);
         break;
 
-      // NOTE: Get difference between dates in days
-      case "4":
+      case "4": // Get difference between dates in days
         days(rl);
         break;
 
-      // NOTE: Print your name initial in uppercase
-      case "5":
+      case "5": // Print your name initial in uppercase
         name(rl);
         break;
 
-      // NOTE: None of those options are selected
-      default:
+      default: // None of those options are selected
         console.log("Invalid choice, try again.");
-        start(); // Restart
+        start();
     }
   });
 };

@@ -5,7 +5,7 @@ const rectangle = (rl: Interface) =>
     rl.question("Width: ", (w) => {
       console.log("\n[Result]");
       console.log(`Area: ${parseFloat(l) * parseFloat(w)}`);
-      rl.close();
+      return rl.close();
     });
   });
 
