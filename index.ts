@@ -5,6 +5,7 @@ import * as readline from "readline"; // NOTE: I'll using readline to make the p
 import circle from "./features/circle";
 import rectangle from "./features/rectangle";
 import triangle from "./features/triangle";
+import days from "./features/days";
 
 // Initialize readline
 const rl = readline.createInterface({
@@ -53,14 +54,14 @@ const start = (): void => {
         circle(rl);
         break;
 
-      // TODO: Find angles of triangle if two angles are given
+      // NOTE: Find angles of triangle if two angles are given
       case "3":
         triangle(rl);
         break;
 
+      // NOTE: Get difference between dates in days
       case "4":
-        // TODO: Get difference between dates in days
-        notImplemented();
+        days(rl);
         break;
 
       case "5":
