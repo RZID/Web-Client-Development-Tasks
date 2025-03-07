@@ -6,6 +6,7 @@ import circle from "./features/circle";
 import rectangle from "./features/rectangle";
 import triangle from "./features/triangle";
 import days from "./features/days";
+import name from "./features/name";
 
 // Initialize readline
 const rl = readline.createInterface({
@@ -64,9 +65,9 @@ const start = (): void => {
         days(rl);
         break;
 
+      // NOTE: Print your name initial in uppercase
       case "5":
-        // TODO: Print your name initial in uppercase
-        notImplemented();
+        name(rl);
         break;
 
       // NOTE: None of those options are selected
