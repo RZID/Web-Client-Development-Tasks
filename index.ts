@@ -1,5 +1,8 @@
 // Deps
 import * as readline from "readline"; // NOTE: I'll using readline to make the prompt more interactive
+
+// Features
+import circle from "./features/circle";
 import rectangle from "./features/rectangle";
 
 // Initialize readline
@@ -44,9 +47,9 @@ const start = (): void => {
         rectangle(rl);
         break;
 
+      // NOTE: Find diameter, circumference and area of a circle
       case "2":
-        // TODO: Find diameter, circumference and area of a circle
-        notImplemented();
+        circle(rl);
         break;
 
       case "3":
