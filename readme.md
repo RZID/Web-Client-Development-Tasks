@@ -2,8 +2,6 @@
 
 A simple interactive command-line tool to perform basic mathematical and string operations, built with **TypeScript** for **Node.js v22.14.0**.
 
----
-
 ## ✨ Features
 
 - Calculate the area of a rectangle 📏
