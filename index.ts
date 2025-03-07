@@ -1,5 +1,6 @@
 // Deps
 import * as readline from "readline"; // NOTE: I'll using readline to make the prompt more interactive
+import rectangle from "./features/rectangle";
 
 // Initialize readline
 const rl = readline.createInterface({
@@ -33,15 +34,14 @@ const quitProgram = (): void => {
 const start = (): void => {
   showMenu();
   rl.question("Enter your choice: ", (choice) => {
-    console.log("\n[Result]");
     switch (choice) {
       case "0": // Quit program
         quitProgram();
         break;
 
+      // NOTE: Find area of a rectangle
       case "1":
-        // TODO: Find area of a rectangle
-        notImplemented();
+        rectangle(rl);
         break;
 
       case "2":
