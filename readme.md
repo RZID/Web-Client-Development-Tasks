@@ -12,8 +12,6 @@ A simple interactive command-line tool to perform basic mathematical and string 
 - Calculate the difference between two dates 📅
 - Extract initials from a name 🔤
 
----
-
 ## 🚀 Installation & Usage
 
 ### **1️⃣ Install Node.js (v22.14.0)**
@@ -59,8 +57,6 @@ or using npm:
 npm start
 ```
 
----
-
 ## 📌 How to Use
 
 Once the app starts, you'll see this menu:
@@ -79,8 +75,6 @@ Name: Ramadhanu
 
 Enter your choice:
 ```
-
----
 
 ## 🔹 Example Inputs & Outputs
 
@@ -133,8 +127,6 @@ Enter full name: John Doe
 [Result]
 Initials: JD
 ```
-
----
 
 ## 📜 License
 
