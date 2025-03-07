@@ -35,7 +35,7 @@ const quitProgram = (): void => {
 // NOTE: Main program
 const start = (): void => {
   showMenu();
-  rl.question("Enter your choice: ", (choice) => {
+  rl.question("\nEnter your choice: ", (choice) => {
     switch (choice) {
       case "0": // Quit program
         quitProgram();
