@@ -1,16 +1,20 @@
 {
-  "name": "cu_ramadhanu_004_wcd_1",
+  "name": "cu_ramadhanu_004_wcd",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts",
+    "start-task-1-js": "node ./task_1/javascript/index.js",
+    "start-task-1-ts": "ts-node ./task_1/typescript/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "experiments": {
+    "jsonModules": true
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   }
 }

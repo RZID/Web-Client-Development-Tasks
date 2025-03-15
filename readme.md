@@ -1,4 +1,4 @@
-# 📊 CLI Math Tools - Web Client Development – College Task
+# 📊 Task 1 - Web Client Development – College Task
 
 A simple interactive command-line tool to perform basic mathematical and string operations, built with **TypeScript** for **Node.js v22.14.0**.
 
