@@ -2,6 +2,8 @@
   "name": "cu_ramadhanu_004_wcd",
   "version": "1.0.0",
   "scripts": {
+    "start-ts": "ts-node ./index.ts",
+    "start-js": "node ./index.js",
     "start-task-1-js": "node ./task_1/javascript/index.js",
     "start-task-1-ts": "ts-node ./task_1/typescript/index.ts",
     "start-task-2-js": "node ./task_2/javascript/index.js",
