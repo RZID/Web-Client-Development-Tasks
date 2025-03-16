@@ -100,7 +100,7 @@ yarn install   # or npm install
 4️⃣ **Run the App**
 
 ```sh
-yarn start     # or npm start
+yarn start-ts     # or yarn start-js
 ```
 
 For specific task details, check:
