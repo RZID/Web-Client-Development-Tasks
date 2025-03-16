@@ -8,6 +8,9 @@ import triangle from "./features/triangle";
 import days from "./features/days";
 import name from "./features/name";
 
+// Constants
+import data from "../../constants/data.json";
+
 // Initialize readline
 const rl = readline.createInterface({
   input: process.stdin,
@@ -17,7 +20,7 @@ const rl = readline.createInterface({
 // NOTE: Main menu
 const showMenu = (): void => {
   console.log("\nWeb Client Development - Task #1");
-  console.log("Name: Ramadhanu");
+  console.log(`Name: ${data.name}`);
   console.log("\n[Please select one of these options]");
   console.log("1. Calculate area of a rectangle");
   console.log("2. Calculate properties of a circle");
