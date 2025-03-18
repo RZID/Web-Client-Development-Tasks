@@ -8,6 +8,7 @@ This project contains multiple tasks with different functionalities:
 
 - **Task 1:** Basic mathematical operations (area, angles, date differences, etc.).
 - **Task 2:** String and number operations (temperature conversion, checking palindrome, etc.).
+- **Task 3:** Slicing web (HTML, CSS) from figma.
 
 ## 📂 Repository Structure
 
@@ -15,6 +16,8 @@ This project contains multiple tasks with different functionalities:
 WCD_Tasks
 ├── constants
 │   └── data.json
+├── index.js
+├── index.ts
 ├── package.json
 ├── readme.md
 ├── task_1
@@ -31,6 +34,7 @@ WCD_Tasks
 │   │   │   └── triangle
 │   │   │       └── index.js
 │   │   └── index.js
+│   ├── readme.md
 │   └── typescript
 │       ├── features
 │       │   ├── circle
@@ -58,6 +62,7 @@ WCD_Tasks
 │   │   │   └── temperature
 │   │   │       └── index.js
 │   │   └── index.js
+│   ├── readme.md
 │   └── typescript
 │       ├── features
 │       │   ├── length
@@ -71,6 +76,15 @@ WCD_Tasks
 │       │   └── temperature
 │       │       └── index.ts
 │       └── index.ts
+├── task_3
+│   ├── README.md
+│   ├── images
+│   │   ├── balls.svg
+│   │   ├── logo.svg
+│   │   ├── whatsapp-icon.svg
+│   │   └── woman.svg
+│   ├── index.html
+│   └── style.css
 ├── tsconfig.json
 └── yarn.lock
 
@@ -107,5 +121,6 @@ For specific task details, check:
 
 - [📖 Task 1 Documentation](./task_1/)
 - [📖 Task 2 Documentation](./task_2/)
+- [📖 Task 3 Documentation](./task_2/)
 
 ### 🚀 Happy Coding!
