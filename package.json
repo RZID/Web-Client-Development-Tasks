@@ -8,6 +8,7 @@
     "start-task-1-ts": "ts-node ./task_1/typescript/index.ts",
     "start-task-2-js": "node ./task_2/javascript/index.js",
     "start-task-2-ts": "ts-node ./task_2/typescript/index.ts",
+    "start-task-3": "serve -s ./task_3 -l 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "experiments": {
@@ -18,6 +19,7 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^22.13.9",
+    "serve": "^14.2.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
   }
